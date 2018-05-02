@@ -6,11 +6,13 @@ body {
 
 header {
   display: flex;
+  position: fixed;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid #000;
   height: 80px;
+  width: 100%;
   align-items: center;
   padding: 0 30px;
 }
