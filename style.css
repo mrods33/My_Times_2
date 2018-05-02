@@ -10,17 +10,24 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid #000;
+  height: 80px;
+  align-items: center;
+  padding: 0 30px;
 }
 
 span {
   display: inline-block;
   text-decoration: underline;
   text-align: center;
-  margin: 20px;
+  margin: 20px 15px 20px 10px;
 }
 
-span.logo {
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo span {
   color: MediumAquamarine;
   text-decoration: none;
-  width: 90px;
 }
