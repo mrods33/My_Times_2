@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+div {
+  border: 1px solid #000;
+}
+
 /* Header */
 
 header {
@@ -14,6 +18,8 @@ header {
   height: 80px;
   width: 100%;
   align-items: center;
+  z-index: 1;
+  background-color: #fff;
 }
 
 nav {
@@ -39,4 +45,29 @@ span {
 .logo span {
   color: MediumAquamarine;
   text-decoration: none;
+}
+
+/* Main Content */
+
+.main {
+  display: flex;
+  height: 700px;
+  margin: 0 50px 0 45px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
