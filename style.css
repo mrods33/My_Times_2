@@ -50,8 +50,9 @@ span {
 /* Main Content */
 
 .main {
-  display: flex;
+  display: inline-flex;
   height: 700px;
+  width: 1500px;
   margin: 0 50px 0 45px;
 }
 
@@ -70,4 +71,7 @@ span {
 
 .column.small {
   width: 240px;
+}
+.image p {
+  margin: 0;
 }
