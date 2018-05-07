@@ -26,11 +26,7 @@ nav {
   padding-right: 35px;
 }
 
-img {
-  padding-left: 30px;
-}
-
-span {
+nav span {
   display: inline-block;
   text-decoration: underline;
   text-align: center;
@@ -39,26 +35,32 @@ span {
 
 .logo {
   display: flex;
+  align-items: center;
   flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  margin-right: 10px;
 }
 
 .logo span {
   color: MediumAquamarine;
-  text-decoration: none;
 }
 
 /* Main Content */
 
 .main {
-  display: inline-flex;
-  height: 700px;
-  width: 1500px;
-  margin: 0 50px 0 45px;
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  margin-right: 35px;
 }
 
 .column.large {
@@ -71,7 +73,4 @@ span {
 
 .column.small {
   width: 240px;
-}
-.image p {
-  margin: 0;
 }
