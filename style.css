@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-div {
-  border: 1px solid #000;
-}
-
 /* Header */
 
 header {
@@ -105,4 +101,26 @@ nav span {
 
 .cat {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+/* Text-Content */
+
+.head-story {
+  display: flex;
+  flex-direction: column;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .text {
+  height: 250px;
 }
