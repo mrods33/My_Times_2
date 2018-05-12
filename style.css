@@ -93,6 +93,10 @@ nav span {
   margin: 0;
 }
 
+.image.fish span {
+  margin-left: 20px;
+}
+
 .image.fall {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
 }
